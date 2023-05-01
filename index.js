@@ -2,7 +2,7 @@
 favouriteMovieGenre("scary");
 
 // watermelon, tomato, banana, orange, avocado, blueberry
-favouriteFruit("tomato");
+favouriteFruit("regular");
 
 // light, dark
 favouriteMode("dark");
