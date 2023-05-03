@@ -7,12 +7,16 @@
           background-color: rgb(200, 0, 0);
           color: rgb(6, 6, 6);
           border: none;
-          height: 50px;
-          width: 105px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 16px;
+          padding-right: 16px;
           border-radius: 2px;
           cursor: pointer;
           margin-right: 8px;
-          transition: 1s;
+          margin-left: 20px;
+          transition: opacity 0.15s;
+          vertical-align: top;
         }
 
         .Useless:hover {
@@ -30,10 +34,12 @@
           border-style: solid;
           border-width: 1px;
           border-radius: 2px;
-          height: 36px;
-          width: 62px;
+          padding-top: 9px;
+          padding-bottom: 9px;
+          padding-left: 16px;
+          padding-right: 16px;
           cursor: pointer;
-          transition: background-color 0s;
+          transition: background-color 0.15, color 0.15s;
         }
 
         .More:hover {
@@ -44,14 +50,22 @@
         .Again {
           background-color: rgb(6, 6, 6);
           color: rgb(242, 239, 239);
-          height: 36px;
-          width: 74px;
+          padding-top: 9px;
+          padding-bottom: 9px;
+          padding-left: 16px;
+          padding-right: 16px;
           border: none;
           border-radius: 18px;
           font-weight: bold;
           font-size: 15px;
           cursor: pointer;
           margin-left: 8px;
+          transition: box-shadow 0.15s;
+          vertical-align: top;
+        }
+
+        .Again:hover {
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
         }
       </style>
     </head>
@@ -59,7 +73,7 @@
   <div>
     <body>
       <button class="Useless">Useless Button</button>
-      <button class="More">More</button>
+      <button class="More">One More</button>
       <button class="Again">Again!</button>
     </body>
   </div>
