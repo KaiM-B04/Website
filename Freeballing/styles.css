@@ -11,23 +11,84 @@
   height: 50px;
   background-color: rgb(40, 66, 101);
   color: rgb(213, 167, 240);
-  overflow: hidden;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: 22px;
+  width: 100%;
+  display: flex;
 }
 
 .logo {
-  height: 100%;
+  margin-left: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 .logo:hover {
   cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  margin-left: auto;
+  margin-right: 0px;
+  margin-top: 22px;
+  margin-bottom: 5px;
+  height: 24px;
+}
+
+.search {
+  background-color: rgb(230, 236, 244);
+  border-color: rgb(21, 35, 54);
+  border-width: 2px;
+  border-style: none;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.search:active {
+  border: none;
+}
+
+.Share {
+  background-color: rgb(230, 236, 244);
+  color: rgb(27, 29, 33);
+  font-weight: bold;
+  border-color: rgb(21, 35, 54);
+  border-width: 2px;
+  border-style: none;
+  border-radius: 5px;
+  margin-right: 5px;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.Share:hover {
+  background-color: rgb(27, 29, 33);
+  color: rgb(230, 236, 244);
+  cursor: pointer;
+}
+
+.Share:active {
+  opacity: 0.7;
+}
+
+.dropdown {
+  background-color: rgb(230, 236, 244);
+  color: rgb(27, 29, 33);
+  font-weight: bold;
+  border-color: rgb(21, 35, 54);
+  border-width: 2px;
+  border-style: none;
+  border-radius: 5px;
+  margin-right: 5px;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.dropdown:hover {
+  background-color: rgb(27, 29, 33);
+  color: rgb(230, 236, 244);
+  cursor: pointer;
+}
+
+.dropdown:active {
+  opacity: 0.7;
 }
 
 .headline {
@@ -81,15 +142,29 @@
   margin-top: 0px;
 }
 
-.ghostwire {
-  color: rgb(225, 228, 235);
-}
-
-.ghostwire:hover {
-  cursor: pointer;
-  color: rgb(243, 101, 226);
-}
-
 .read {
   display: block;
+  background-color: rgb(230, 236, 244);
+  color: rgb(27, 29, 33);
+  font-weight: bold;
+  border-color: rgb(21, 35, 54);
+  border-width: 2px;
+  border-style: none;
+  border-radius: 5px;
+  margin-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.read:hover {
+  background-color: rgb(27, 29, 33);
+  color: rgb(230, 236, 244);
+  cursor: pointer;
+}
+
+.read:active {
+  opacity: 0.7;
 }
