@@ -4,7 +4,6 @@
   color: rgb(225, 228, 235);
   line-height: 150%;
   width: 100%;
-  align-content: center;
 }
 
 .topnav {
@@ -42,25 +41,36 @@
   border: solid;
   border-radius: 5px;
   border-color: rgb(45, 60, 82);
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.article {
+  margin-left: 14px;
 }
 
 .intro-text {
   display: inline-block;
+  vertical-align: top;
 }
 
 .main-text {
-  width: 500px;
+  width: 600px;
   display: inline-block;
+  margin-right: 12px;
 }
 
 .sidebar {
   display: inline-block;
+  vertical-align: top;
 }
 
 .img-2 {
-  width: 400px;
+  width: 500px;
   height: 50%;
   display: inline-block;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 .img-description {
@@ -68,4 +78,17 @@
   font-size: small;
   text-align: center;
   margin-top: 0px;
+}
+
+.ghostwire {
+  color: rgb(225, 228, 235);
+}
+
+.ghostwire:hover {
+  cursor: pointer;
+  color: rgb(243, 101, 226);
+}
+
+.read {
+  display: block;
 }
