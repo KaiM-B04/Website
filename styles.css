@@ -6,6 +6,19 @@
   width: 100%;
 }
 
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+
 .topnav {
   width: 100%;
   height: 50px;
@@ -99,7 +112,6 @@
   height: 100px;
   width: 100%;
   object-fit: cover;
-  object-position: right;
   border: solid;
   border-radius: 5px;
   border-color: rgb(45, 60, 82);
@@ -112,27 +124,32 @@
 }
 
 .intro-text {
-  display: inline-block;
+  display: inline-grid;
   vertical-align: top;
 }
 
 .main-text {
   width: 600px;
-  display: inline-block;
+  display: inline-grid;
   margin-right: 12px;
 }
 
 .sidebar {
-  display: inline-block;
+  display: inline-grid;
   vertical-align: top;
 }
 
 .img-2 {
   width: 500px;
-  height: 50%;
   display: inline-block;
-  margin-right: 0px;
+  margin-right: 15px;
   margin-left: 0px;
+  transition: opacity 0.15s;
+}
+
+.img-2:hover {
+  opacity: 0.9;
+  cursor: pointer;
 }
 
 .img-description {
@@ -140,6 +157,25 @@
   font-size: small;
   text-align: center;
   margin-top: 0px;
+}
+
+.ghostwire {
+  color: rgb(173, 170, 211);
+  transition: color, font-weight, 0.15s;
+}
+
+.ghostwire:hover {
+  color: rgb(161, 134, 193);
+  font-weight: bold;
+}
+
+.ghostwire:active {
+  color: rgb(141, 72, 226);
+  font-weight: bold;
+}
+
+.img-description:hover {
+  color: rgb(225, 228, 235);
 }
 
 .read {
