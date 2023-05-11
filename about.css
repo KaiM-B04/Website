@@ -1,0 +1,9 @@
+body,
+html {
+  height: 100%;
+  background-color: rgb(27, 29, 33);
+}
+
+.hero-image {
+  background-image: url("images/Post Apocalypse art.jpg");
+}

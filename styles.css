@@ -82,6 +82,28 @@ a:active {
   opacity: 0.7;
 }
 
+.about {
+  background-color: rgb(230, 236, 244);
+  color: rgb(27, 29, 33);
+  font-weight: bold;
+  border-color: rgb(21, 35, 54);
+  border-width: 2px;
+  border-style: none;
+  border-radius: 5px;
+  margin-right: 5px;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.about:hover {
+  background-color: rgb(27, 29, 33);
+  color: rgb(230, 236, 244);
+  cursor: pointer;
+}
+
+.about:active {
+  opacity: 0.7;
+}
+
 .dropdown {
   background-color: rgb(230, 236, 244);
   color: rgb(27, 29, 33);
@@ -120,18 +142,14 @@ a:active {
 }
 
 .article {
+  display: inline-block;
   margin-left: 14px;
-}
-
-.intro-text {
-  display: inline-grid;
-  vertical-align: top;
 }
 
 .main-text {
   width: 600px;
-  display: inline-grid;
-  margin-right: 12px;
+  display: inline-block;
+  margin-right: 14px;
 }
 
 .sidebar {
@@ -142,8 +160,6 @@ a:active {
 .img-2 {
   width: 500px;
   display: inline-block;
-  margin-right: 15px;
-  margin-left: 0px;
   transition: opacity 0.15s;
 }
 
@@ -179,7 +195,8 @@ a:active {
 }
 
 .read {
-  display: block;
+  display: inline-block;
+  vertical-align: top;
   background-color: rgb(230, 236, 244);
   color: rgb(27, 29, 33);
   font-weight: bold;
