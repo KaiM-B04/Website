@@ -1,0 +1,99 @@
+.topnav {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(40, 66, 101);
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  box-shadow: 0px 5px 25px black;
+}
+
+.home {
+  display: flex;
+}
+
+.home:hover {
+  cursor: pointer;
+}
+
+.logo {
+  margin-left: 10px;
+  margin-right: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  animation: rotation 7s infinite linear;
+}
+
+@keyframes rotation {
+  to {
+    transform: rotate(359deg);
+  }
+  from {
+    transform: rotate(0deg);
+  }
+}
+
+.logo:hover {
+  cursor: pointer;
+  animation: rotation 0.5s infinite linear;
+}
+
+.author {
+  font-size: 12px;
+  font-style: italic;
+  padding-top: 10px;
+}
+
+.search {
+  background-image: url(images/Vector_search_icon.svg);
+  background-color: rgb(230, 236, 244);
+  background-repeat: no-repeat;
+  background-position: 140px 6px;
+  margin-top: 15px;
+  margin-bottom: 12px;
+  font-style: italic;
+  border: none;
+  border-radius: 5px;
+  height: 22px;
+  outline: none;
+}
+
+.search:active {
+  border: none;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 12px;
+  height: 24px;
+}
+
+.share,
+.about,
+.dropdown {
+  background-color: rgb(230, 236, 244);
+  color: rgb(27, 29, 33);
+  font-weight: bold;
+  border-width: 2px;
+  border-style: none;
+  margin-right: 10px;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.share:hover,
+.about:hover,
+.dropdown:hover {
+  background-color: rgb(27, 29, 33);
+  color: rgb(230, 236, 244);
+  cursor: pointer;
+}
+
+.share:active,
+.about:active,
+.dropdown:active {
+  opacity: 0.7;
+}
