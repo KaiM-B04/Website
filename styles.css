@@ -50,7 +50,7 @@ active {
 .main-text {
   display: inline-flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: top;
   margin-right: 14px;
 }
 
