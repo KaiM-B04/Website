@@ -36,6 +36,7 @@
 
 .logo:hover {
   cursor: pointer;
+  opacity: 0.5;
   animation: rotation 0.5s infinite linear;
 }
 
@@ -43,6 +44,11 @@
   font-size: 12px;
   font-style: italic;
   padding-top: 10px;
+  opacity: 0.7;
+}
+
+.author:hover {
+  opacity: 0.9;
 }
 
 .search {
@@ -50,7 +56,7 @@
   background-color: rgb(230, 236, 244);
   background-repeat: no-repeat;
   background-position: 180px 6px;
-  margin-top: 15px;
+  margin-top: 20px;
   margin-bottom: 10px;
   font-style: italic;
   border: none;
@@ -66,7 +72,7 @@
 
 .buttons {
   display: flex;
-  margin-top: 15px;
+  margin-top: 20px;
   margin-bottom: 10px;
   height: 24px;
 }
@@ -79,12 +85,19 @@
   font-weight: bold;
   border-width: 2px;
   border-style: none;
-  margin-right: 10px;
   border-radius: 5px;
   padding: 5px 10px 5px 10px;
   transition: background-color 0.15s, color 0.15s;
 }
 
+.about,
+.share {
+  margin-right: 5px;
+}
+
+.dropdown {
+  margin-right: 10px;
+}
 .share:hover,
 .about:hover,
 .dropdown:hover {
