@@ -51,7 +51,7 @@
   background-repeat: no-repeat;
   background-position: 180px 6px;
   margin-top: 15px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   font-style: italic;
   border: none;
   border-radius: 5px;
@@ -67,7 +67,7 @@
 .buttons {
   display: flex;
   margin-top: 15px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   height: 24px;
 }
 
