@@ -1,8 +1,14 @@
-body,
-html {
+html,
+body {
   margin: 0px;
+  padding-top: 32px;
+  font-family: Arial;
+  background-color: rgb(27, 29, 33);
+  color: rgb(225, 228, 235);
+  line-height: 150%;
 }
 
-header {
-  background-color: black;
+a {
+  color: rgb(230, 236, 244);
+  text-decoration: none;
 }
